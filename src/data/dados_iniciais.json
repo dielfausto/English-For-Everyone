@@ -1,17 +1,17 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "English in Brazil",
+      "link": "",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "url": "https://www.youtube.com/watch?v=YmYyYI_vhDA"
         },
         {
           "titulo": "SEO com React",
@@ -40,144 +40,156 @@
         {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+        }
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Sotaques de Inglês pelo Mundo",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "INGLÊS AMERICANO X INGLÊS BRITÂNICO: APRENDA A DIFERENÇA!",
+          "url": "https://www.youtube.com/watch?v=PXR-4e3Ouns"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "10 SOTAQUES DE INGLÊS | AMERICANO REAGE",
+          "url": "https://www.youtube.com/watch?v=khSHAdGLklI"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "12 SOTAQUES DE INGLÊS AMERICANO",
+          "url": "https://www.youtube.com/watch?v=fw4lAc6CJ8w"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "O CANADÁ x OS EUA: SOTAQUE & CULTURA",
+          "url": "https://www.youtube.com/watch?v=1oC929xAdcc"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Frases importantes de saber",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "10 FRASES CURTINHAS QUE DARÃO UM UP NO SEU INGLÊS",
+          "url": "https://www.youtube.com/watch?v=aXRNWVdHuE0"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "25 FRASES MAIS IMPORTANTE",
+          "url": "https://www.youtube.com/watch?v=RpoF2X0i5fs"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "APRENDA 32 PHRASAL VERBS EM 12 MINUTOS | English in Brazil",
+          "url": "https://www.youtube.com/watch?v=o7S2lbZ3Y7w"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "AS 50 PALAVRAS MAIS USADAS NO INGLÊS (com exemplos!) | Inglês para Iniciantes",
+          "url": "https://www.youtube.com/watch?v=g_d6VZnaWwA"
+        },
+        {
+          "titulo": "Frases MUITO ÚTEIS para começar uma conversa em inglês",
+          "url": "https://www.youtube.com/watch?v=x7QIxp4N39I"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Dicas de Gramática",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "7 MANEIRAS DE FALAR -NÃO ENTENDI- EM INGLÊS | DICA #13",
+          "url": "https://www.youtube.com/watch?v=AJRUHLiIUCs&list=PLFJshFlF-r5kP3IRPQn-UpZQJ8cjBcfKY"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "COMO RESPONDER -WHAT'S UP?- | DICA #18",
+          "url": "https://www.youtube.com/watch?v=msJBDs9sxWQ&list=PLFJshFlF-r5kP3IRPQn-UpZQJ8cjBcfKY&index=2"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "OS 20 PHRASAL VERBS MAIS ÚTEIS DO INGLÊS | DICA #10",
+          "url": "https://www.youtube.com/watch?v=9ppTwL_o1og&list=PLFJshFlF-r5kP3IRPQn-UpZQJ8cjBcfKY&index=3"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "AS GÍRIAS MAIS COMUNS DA INTERNET EM INGLÊS | DICA #14",
+          "url": "https://www.youtube.com/watch?v=o7Ojf4_QBfA&list=PLFJshFlF-r5kP3IRPQn-UpZQJ8cjBcfKY&index=6"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Pronunciar Contrações",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "COMO PRONUNCIAR –N'T EM INGLÊS | CONTRAÇÕES #1",
+          "url": "https://www.youtube.com/watch?v=q-fjnYTasdE&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "AS CONTRAÇÕES INFORMAIS DO INGLÊS | CONTRAÇÕES #2",
+          "url": "https://www.youtube.com/watch?v=HtppueHEMkY&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR&index=2"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "COMO PRONUNCIAR –'LL | CONTRAÇÕES #3",
+          "url": "https://www.youtube.com/watch?v=aAK73WPSjgU&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR&index=3"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "COMO PRONUNCIAR –'D | CONTRAÇÕES #4",
+          "url": "https://www.youtube.com/watch?v=aG1GL3FLwes&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR&index=4"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "COMO PRONUNCIAR –'VE | CONTRAÇÕES #5",
+          "url": "https://www.youtube.com/watch?v=_3f-U5sOino&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR&index=5"
+        },
+        {
+          "titulo": "COMO PRONUNCIAR –'RE, –'S, –'M e O'– | CONTRAÇÕES #6",
+          "url": "https://www.youtube.com/watch?v=QHkZWIn-rP0&list=PLFJshFlF-r5kRbShnfZoQYGRqmmL1fpAR&index=6"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Inglês para Viagem",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "TUDO SOBRE INGLÊS NO SUPERMERCADO | Survival English #1",
+          "url": "https://www.youtube.com/watch?v=EZ2iYEdroS8"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "INGLÊS NO AEROPORTO, AVIÃO E IMIGRAÇÃO: aprenda a se virar | Survival English #2",
+          "url": "https://www.youtube.com/watch?v=h0Yz4StSGJc"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "COMO FALAR AO TELEFONE EM INGLÊS (Perca o medo!) | Survival English #3",
+          "url": "https://www.youtube.com/watch?v=8B4viMZMO1I"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "INGLÊS NO MÉDICO: SINTOMAS, DOENÇAS E FARMÁCIA | Survival English #4",
+          "url": "https://www.youtube.com/watch?v=biGHN_fqUNo"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "COMO PEDIR INFORMAÇÕES EM INGLÊS | Survival English #5",
+          "url": "https://www.youtube.com/watch?v=qRvFwI63kDA"
+        },
+        {
+          "titulo": "INGLÊS NO RESTAURANTE | Survival English #6",
+          "url": "https://www.youtube.com/watch?v=D-I9422m2o8&t=85s"
+        },
+        {
+          "titulo": "INGLÊS PARA FAZER COMPRAS | Survival English #7",
+          "url": "https://www.youtube.com/watch?v=iFNY3AmjFJE"
         }
       ]
     }
