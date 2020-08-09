@@ -1,13 +1,33 @@
 import React, { useState, useEffect } from 'react';
-// import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
-/// /import categoriasRepository from '../../../repositories/categorias';
+import categoriasRepository from '../../../repositories/categorias';
+import { TableC } from '../styles';
 
 function CadastroCategoria() {
-  // const history = useHistory();
+  const history = useHistory();
+
+  const table = {
+    width: '100%',
+    marginTop: '20px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    paddingBottom: '10px',
+    border: '1px solid white',
+  };
+
+  const tableth = {
+    paddingTop: '12px',
+    paddingBottom: '12px',
+    textAlign: 'center',
+    backgroundColor: 'blue',
+    color: 'black',
+
+  };
 
   const valoresIniciais = {
     nome: '',
@@ -15,7 +35,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const { handleChange, values } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -32,21 +52,48 @@ function CadastroCategoria() {
         ]);
       });
   }, []);
+
+  const listC = (
+    <table style={table}>
+      <tbody>
+        <tr>
+          <th style={tableth}>Categorias</th>
+        </tr>
+      </tbody>
+      {categorias.map((categoria) => (
+        <tbody key={`${categoria.titulo}`}>
+          <TableC fieldColor={categoria.cor}>
+            <td style={{ padding: '5px', textAlign: 'center' }}>
+              {categoria.titulo}
+            </td>
+          </TableC>
+        </tbody>
+      ))}
+    </table>
+  );
+
   return (
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
 
-        clearForm();
+        categoriasRepository
+          .create({
+            titulo: values.titulo,
+            cor: values.cor,
+            text: values.text,
+          })
+          .then(() => {
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          });
+
+        setCategorias([...categorias, values]);
       }}
       >
 
@@ -78,13 +125,25 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo} `}>
-            {categoria.titulo}
-          </li>
-        ))}
-      </ul>
+      {categorias.length === 0 && (
+        <div className="loading">
+          {/* Loading... */}
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+        </div>
+
+      )}
+
+      {listC}
+
+      <br />
+      <br />
     </PageDefault>
   );
 }

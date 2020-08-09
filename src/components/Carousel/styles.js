@@ -12,15 +12,13 @@ export const Title = styled.h3`
   line-height: 1;
   border-radius: 4px;
   box-shadow: 10px 10px 10px 5px black;
-
-
-
   background-image: linear-gradient(to right, red, blue, white);
 
 
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
+    
   }
 `;
 
@@ -36,6 +34,9 @@ export const ExtraLink = styled.a`
     display: block;
     margin-bottom: 16px;
     margin-left: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
   }
 `;
 
