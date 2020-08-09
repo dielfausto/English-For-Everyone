@@ -22,7 +22,7 @@ color: var(--white);
         background: var(--primary);
         
         box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
-        transition-delay: 4s;
+        transition-delay: 2s;
     }
     
     &:focus {
