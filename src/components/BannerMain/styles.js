@@ -96,7 +96,7 @@ export const BannerMainContainer = styled.section`
 
   &:after {
     bottom: 0;
-    background: linear-gradient(0deg, #141414 0%, transparent 100%);
+    background: linear-gradient(0deg, #141414 0%, transparent 50%);
   }
 `;
 
@@ -113,8 +113,8 @@ export const WatchButton = styled.button`
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
+  color: var(--white);
+  background: var(--blackLighter);
   border-color: var(--black);
   transition: opacity .3s;
   display: none;

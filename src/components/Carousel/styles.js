@@ -11,6 +11,12 @@ export const Title = styled.h3`
   background: red;
   line-height: 1;
   border-radius: 4px;
+  box-shadow: 10px 10px 10px 5px black;
+
+
+
+  background-image: linear-gradient(to right, red, blue, white);
+
 
   @media (max-width: 800px) {
     font-size: 18px;

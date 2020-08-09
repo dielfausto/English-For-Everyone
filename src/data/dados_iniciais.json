@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "English in Brazil",
+      "titulo": "Inglês Básico",
       "link": "",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -10,36 +10,56 @@
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+          "titulo": "English For Everyone ",
           "url": "https://www.youtube.com/watch?v=YmYyYI_vhDA"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "A Ordem das Palavras em Inglês",
+          "url": "https://www.youtube.com/watch?v=KS74X5LnLjU&feature=youtu.be"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Como Montar Perguntas em Innglês",
+          "url": "https://www.youtube.com/watch?v=tgrJRsWPt2s"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "This x That",
+          "url": "https://www.youtube.com/watch?v=ilcKmWfNLTg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "10 Formas de dizer Thank You",
+          "url": "https://www.youtube.com/watch?v=opxO1dbITN4"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "SUCH, SO, REALLY, VERY, PRETTY, KINDA ",
+          "url": "https://www.youtube.com/watch?v=7x8LaWXVslg"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Will x Will Going To",
+          "url": "https://www.youtube.com/watch?v=UjyAKcAdjhY"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Os 10 Verbos mais Usados",
+          "url": "https://www.youtube.com/watch?v=7V68WIFtZww"
+        },
+        {
+          "titulo": "5 Truques para Nunca mais Errar a Pronúncia",
+          "url": "https://www.youtube.com/watch?v=o9YAakiCi3k"
+        },
+        {
+          "titulo": "Frases Curtinhas para se Cpmunicar Melhor em Inglês",
+          "url": "https://www.youtube.com/watch?v=DNWCV1F5pYo"
+        },
+        {
+          "titulo": "Pronúncia dos verbos regulares (-ed) em inglês",
+          "url": "https://www.youtube.com/watch?v=U29mBp_3hQ8"
+        },
+        {
+          "titulo": "Como Usar a Voz Passiva(Passive Voice)",
+          "url": "https://www.youtube.com/watch?v=Kr4tQ-xdAAI"
+        },
+        {
+          "titulo": "IF I WAS ou IF I WERE? TO ou ING? ",
+          "url": "https://www.youtube.com/watch?v=u7DDXcfcHX0"
         }
       ]
     },

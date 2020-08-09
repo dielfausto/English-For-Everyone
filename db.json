@@ -2,20 +2,51 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Ingês Básico",
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       }
+    },
+    {
+      "id": 2,
+      "titulo": "Sotaques de Inglês pelo Mundo",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 3,
+      "titulo": "Frases importantes de saber",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 4,
+      "titulo": "Dicas de Gramática",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 5,
+      "titulo": "Pronunciar Contrações",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 6,
+      "titulo": "Inglês para Viagem",
+      "cor": "#6BD1FF"
     }
   ],
   "videos": [
     {
-      "id": 1,
+      "titulo": "PRESENT PERFECT: O CAMINHO INVERSO DO INGLÊS PRO PORTUGUÊS",
+      "url": "https://www.youtube.com/watch?v=DXH_b0HIaZg",
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "id": 7
+    },
+    {
+      "titulo": "MUCH / MANY / A LOT OF: APRENDA A REGRA",
+      "url": "https://www.youtube.com/watch?v=Ff4pmSCf5sM",
+      "categoriaId": 1,
+      "id": 8
     }
   ]
 }

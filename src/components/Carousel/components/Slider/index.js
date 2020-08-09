@@ -14,6 +14,7 @@ const Container = styled.ul`
     margin: auto;
     width: 30px;
     height: 30px;
+    /*background-color: blue;*/
     transform: initial;
     &:before {
       font-size: 30px;
@@ -26,6 +27,10 @@ const Container = styled.ul`
   .slick-next {
     right: 16px;
   }
+
+  .slick-prev:before,
+  .slick-next:before{
+    color: var(--primary);
 `;
 
 export const SliderItem = styled.li`
@@ -38,16 +43,24 @@ export const SliderItem = styled.li`
   }
 `;
 
-
 const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
-      dots: false,
+      /* dots: false,
       infinite: false,
       speed: 300,
       centerMode: false,
       variableWidth: true,
+      adaptiveHeight: true, */
+      dots: false,
+      infinite: true,
+      speed: 300,
+      centerMode: false,
+      variableWidth: true,
       adaptiveHeight: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+
     }}
     >
       {children}
@@ -55,4 +68,4 @@ const Slider = ({ children }) => (
   </Container>
 );
 
-export default Slider; 
+export default Slider;
